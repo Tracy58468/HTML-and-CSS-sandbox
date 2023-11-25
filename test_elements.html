@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+  <head>
+    <meta charset = "utf-8" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, user-scalable=1" />
+	<!-- <meta http-equiv = "content-security-policy" content = "default-src https:" /> --> <!-- Remove this once there is an SSL certificate. -->
+    <meta name = "description" content = "HTML and CSS Sandbox" />
+    <meta name = "author" content = "Tracy Hockenhull" />
+	<meta name = "theme-color" content = "#192c95" />
+	<link rel = "stylesheet" type = "text/css" href = "/css/normalize.css" />
+	<link rel = "stylesheet" type = "text/css" href = "/css/style.css" />
+	<link rel = "canonical" href = "/test_elements.html" />
+
+	<!-- FAVICON -->
+
+	<link rel = "icon" href = "/img/pexels-anni-roenkae-5278835 small square.jpg" />
+
+	<!-- END FAVICON -->
+
+
+	
+    <title>TH Enterprises</title>
+
+  </head>
+	
+	<body>
+
+		<header>
+
+			<img class = "logo" src = "img/pexels-anni-roenkae-5278835 small square.jpg" alt = "Profile photo" />
+
+			<!-- <label for = 'toggleMenu'>
+				<img src = 'img/pexels-anni-roenkae-5278835 small square.jpg' style = "width:40px; height:40px" alt = 'Navigation menu' />
+			</label>
+
+			<input id = 'toggleMenu' type = 'checkbox' /> -->
+
+			<nav id = "global_nav">
+
+				 <!-- <a class = "navbar-brand" href = "index.html"><img src = "img/pexels-anni-roenkae-5278835 small square.jpg" style = "width:40px; height:40px" /></a>  -->
+
+				 <!-- Add # in front of link definitions for same-page nav links. -->
+				<ul>
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "about.html">About</a></li>
+					<li><a href = "services.html">Services</a></li>
+					<li><a href = "contact.html">Contact</a></li>
+					<li><a href = "news.html">News</a></li>
+				</ul>
+
+			</nav>
+
+			<br>
+
+			<nav aria-label = "breadcrumbs">
+
+				<ul role = "list">
+					<li>
+						<a href = "/">
+							<img src = 'img/pexels-anni-roenkae-5278835 small square.jpg' style = "width:40px; height:40px" alt = 'Navigation menu' />
+						</a>
+					</li>
+					<li><a href = "services.html">Services</a></li>
+					<li><a href = "contact.html">Contact</a></li>
+					<li><a href = "news.html">News</a></li>
+					<li aria-current = "page">Test Elements</li>
+				</ul>
+
+		   </nav>
+
+
+		</header>
+
+		<main>
+			<h1>Content h1</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <mark>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</mark>. <em>Ut enim</em> ad minim <strong>veniam</strong>, quis nostrud exercitation ullamco laboris nisi ut <ins>aliquip</ins> ex ea <del>commodo</del> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+			<article>
+				<h2>Article 1 h2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt <sup>in</sup> culpa qui officia deserunt mollit anim <sub>id</sub> est laborum.</p>
+
+				<p>And here is some random text about <date>21 November 2023</date> at <time>13:54</time>.</p>
+			</article>
+			
+			
+			<section id = "about">
+				<h2>About</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</section>
+
+			<article>
+				<h2>Article 2 h2</h2>
+				<section>
+					<h2>Section heading h2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<section>
+						<h3>Section heading h3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<section>
+							<h4>Section heading h4</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</section>
+					</section>
+
+					<section>
+						<h3>Section heading h3 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<section>
+							<h4>Section heading h4 2</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</section>
+					</section>
+
+				</section>
+
+				<q cite="https://craft-code.dev/essays/code/responsive-by-default">
+					<abbr title="HyperText Markup Language">HTML</abbr>
+					is responsive by default.
+				</q>				
+
+				<details>
+					<summary>What we do</summary>
+				We do lots of things. This, and that, and the other. We may also do some of those things.</details>
+				
+				
+			</article>
+			
+		</main>
+
+		<aside>
+			<h2>Aside heading</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</aside>
+
+		<footer>
+			<p>&copy;2023 Tracy Hockenhull, All rights reserved.</p>
+		</footer>
+	
+	</body>
+
+</html>

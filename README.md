@@ -1,0 +1,1 @@
+Sandbox for testing vanilla HTML and CSS.
